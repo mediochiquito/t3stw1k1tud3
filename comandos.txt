@@ -1,0 +1,15 @@
+
+cordova create testingwikitude com.metamorf.testingwikitude TestingWikitude
+cd testingwikitude
+
+
+
+plugman install --platform ios --project {PROJECT/PATH}/platforms/ios --plugin https://github.com/Wikitude/wikitude-phonegap.git
+
+$ cordova plugin add org.apache.cordova.device
+$ cordova plugin add org.apache.cordova.device-motion
+$ cordova plugin add org.apache.cordova.device-orientation
+$ cordova plugin add org.apache.cordova.geolocation
+
+
+cordova plugin add /Applications/MAMP/htdocs/repos/wikitude-phonegap

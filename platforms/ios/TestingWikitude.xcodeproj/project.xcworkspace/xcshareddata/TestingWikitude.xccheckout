@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C61124A-0D20-45C1-8066-8F206EB8E122</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestingWikitude</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18A0ADED-0641-4266-A2AD-A9DB1F6B9295</key>
+		<string>https://github.com/mediochiquito/testingwikitude.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/TestingWikitude.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18A0ADED-0641-4266-A2AD-A9DB1F6B9295</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mediochiquito/testingwikitude.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18A0ADED-0641-4266-A2AD-A9DB1F6B9295</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18A0ADED-0641-4266-A2AD-A9DB1F6B9295</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testingwikitude</string>
+		</dict>
+	</array>
+</dict>
+</plist>

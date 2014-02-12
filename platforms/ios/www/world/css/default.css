@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+
+.Boton2Frames{
+    overflow: hidden;
+}
+
+.Boton2Frames img{
+    position: absolute;
+
+}
+
+#btn_ver{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+
+}
+
+#btn_cerrar{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+/* CSS Style for status message at the top of the HUD */
+.status {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    width: 100%;
+    height: 5%;
+    font-size: 30px;
+}
+.Boton2Frames{
+    overflow: hidden;
+}
+
+.Boton2Frames img{
+    position: absolute;
+
+}
+
+#btn_ver{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+
+}
+
+#btn_cerrar{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}

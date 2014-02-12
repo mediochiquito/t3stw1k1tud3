@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00EDBDE4860940A8BE5A03E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798A1D9564FA492091A6F1CE /* QuartzCore.framework */; };
 		06CA5F7FDA764F70926CA3C3 /* libWikitudeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D1351A50A4BA48C5F8F58 /* libWikitudeSDK.a */; };
@@ -608,7 +607,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = TestingWikitude;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "E35071CC-002C-46B0-BAEE-004451ECE8AF";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -646,7 +645,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = TestingWikitude;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "E35071CC-002C-46B0-BAEE-004451ECE8AF";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

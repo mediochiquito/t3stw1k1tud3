@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:6
+-keep class com.metamorf.testingwikitude.TestingWikitude { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.wikitude.tools.activities.MediaPlayerActivity { <init>(...); }
+

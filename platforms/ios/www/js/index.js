@@ -18,12 +18,7 @@
  */
 function es_touch(){
 
-        try {  
-            document.createEvent("TouchEvent");  
-            return true;  
-        } catch (e) {  
-            return false;  
-        }  
+    return true;
             
 }
 
@@ -61,8 +56,11 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
+       // $(window).load(function(){
+        document.addEventListener('deviceready', this.onDeviceReady, false);
 
-        document.addEventListener('deviceready', this.onDeviceReady);
+
+        //})
        
     },
 
@@ -72,8 +70,6 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 
-        app.receivedEvent('deviceready');
-
         // check if the current device is able to launch ARchitect Worlds
         try{
             
@@ -81,11 +77,13 @@ var app = {
             app.wikitudePlugin.isDeviceSupported(app.onDeviceSupportedCallback, app.onDeviceNotSupportedCallback);
             
         }catch(e){}
-       
+            
+      
         var btn_ver = new Boton2Frames("img/btn_ver.png", 200, 100,  loadAR)
         btn_ver.main.id = 'btn_ver';
         $('body').append(btn_ver.main)
       
+
 
     },
 

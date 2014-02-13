@@ -11,7 +11,7 @@ function Boton2Frames($img, $img_w, $img_h, $callback, $facetor_scale){
 	// hakc
 	var ext_array = $img.split('.');
 	var ext = ext_array[ext_array.length-1]
-	if(ext == 'png') $(this.main).find('img').css('-webkit-backface-visibility', 'hidden');
+	//if(ext == 'png') $(this.main).find('img').css('-webkit-backface-visibility', 'hidden');
 
 
 		
